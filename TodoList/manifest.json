@@ -1,0 +1,16 @@
+{
+    "name": "To-do List Extension",
+    "version": "0.0.1",
+    "description": "A simple Todo List",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "To Do List",
+        "default_popup": "todolist.html",
+        "default_icon": "logo.png" 
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": ["activeTab"]
+
+}
